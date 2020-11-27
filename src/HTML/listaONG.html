@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/listaONG.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -14,12 +15,14 @@
     </header>
 
     <main>
-        <label for="pesquisar">Pesquisar</label>
-        <input type="text" id="pesquisar" placeholder="Digite um texto...">
-        <button>Enviar</button>
+        <div class='search'>
+            <label for="pesquisar" class='pesquisas'>Pesquisar</label>
+            <input type="text" id="pesquisar" placeholder="Digite um texto..." class='pesquisas'>
+            <button class='pesquisas'>Enviar</button>
+        </div>
         <div class='template'>
             <div>
-                <a href="/src/HTML/perfilONG.html">
+                <a href="/src/HTML/perfilONG.html" class="button">
                     <p>Ajudando as criançãs de são paulo</p>
                     <img src="/img/user.png" alt="User" class='user'>
                     <hr>
@@ -27,7 +30,7 @@
                 </a>
             </div>
             <div>
-                <a href="/src/HTML/perfilONG2.html">
+                <a href="/src/HTML/perfilONG2.html" class="button">
                     <p>Ajudando as criançãs de Campinas</p>
                     <img src="/img/user.png" alt="User" class='user'>
                     <hr>
@@ -35,7 +38,7 @@
                 </a>
             </div>
             <div>
-                <a href='/src/HTML/perfilONG3.html'>
+                <a href='/src/HTML/perfilONG3.html' class="button">
                     <p>Ajudando os idosos de são paulo</p>
                     <img src="/img/user.png" alt="User" class='user'>
                     <hr>
