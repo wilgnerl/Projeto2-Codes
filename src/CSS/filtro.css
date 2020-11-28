@@ -49,3 +49,9 @@ a {
     border-radius: 1rem;
     margin: 0rem 1rem;
 }
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
