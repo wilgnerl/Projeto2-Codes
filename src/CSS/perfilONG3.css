@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;  
+    background-color: #D2F6C5;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #28DF99;
+    color: white;
+    
+}
+
+.logo {
+    display: flex;
+
+}
+
+h1 {
+    margin-right: 1rem;
+}
+
+main{
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 1rem;
+}
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 1rem 0rem;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+.avalia {
+    display: flex;
+}
+
+.foto {
+    margin-right: 1rem;
+}
+
+.button {
+    color: white;
+    background-color: #28DF99;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.15rem;
+    padding: 1.15rem;
+    border-radius: 1rem;
+}

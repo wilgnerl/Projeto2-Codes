@@ -30,12 +30,22 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-    
+    margin-left: 2rem;
     
 }
 
 .pesquisas {
     margin: 1rem 0rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.enviar {
+    margin-top: 1rem;
+    background-color: #28DF99;
+    font-size: 1.15rem;
+    padding: 1.15rem;
+    border-radius: 1rem;
 }
 
 input {
@@ -58,29 +68,39 @@ main {
     
 }
 
-div{
-    display: flex;
-    margin: 1rem 0;
-    
-    
-}
 
 .button {
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: white;
     
     
+}
+.template1 {
+    background-color: #158E60;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0rem;
+}
+
+.template2 {
+    background-color: #158E60;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0rem;
+}
+
+.template3 {
+    background-color: #158E60;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0rem;
 }
 
 p {
     margin: 0.5rem 0rem;
     border-style: solid;
     font-size: 1.1rem;
-}
-
-img {
-    margin: 0.5rem 0rem;
 }
 
 

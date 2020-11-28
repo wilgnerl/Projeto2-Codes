@@ -4,28 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/reset.css">
-    
+    <link rel="stylesheet" href="../CSS/filtro.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
     <header>
         <a href="/src/HTML/home.html"><img src="/img/left-arrow.png" alt="Voltar"></a>
+        <h1>Filtro</h1>
     </header>
+    <h2>Selecione os campos que te interessem:</h2>
     <main>
-        <h2>Selecione os campos que te interessem:</h2>
-        <input type="checkbox" id="1">
-        <label for="1">Proximo da minha localização</label>
-        <input type="checkbox" id="2">
-        <label for="2">Trabalha com crianças</label>
-        <input type="checkbox" id="3">
-        <label for="3">Trabalha com Idosos</label>
-        <input type="checkbox" id="4">
-        <label for="4">Trabalha com meio ambiente</label>
-        <input type="checkbox" id="5">
-        <label for="5">Não precisa de experiencia previa</label>
+        <div>
+            <input type="checkbox" id="1">
+            <label for="1">Proximo da minha localização</label>
+        </div>
+        <div>
+            <input type="checkbox" id="2">
+            <label for="2">Trabalha com crianças</label>
+        </div>
+        <div>
+            <input type="checkbox" id="3">
+            <label for="3">Trabalha com idosos</label>
+        </div>
         
-        <a href="/src/HTML/listaONG.html"> Aplicar Filtros</a>
+        <div>
+            <input type="checkbox" id="4">
+            <label for="4">Trabalha com meio ambiente</label>
+        </div>
+        <div>
+            <input type="checkbox" id="5">
+            <label for="5">Não precisa de experiencia previa</label> 
+        </div>
+          
     </main>
+    <a href="/src/HTML/listaONG.html"> Aplicar Filtros</a>
 </body>
 </html>
