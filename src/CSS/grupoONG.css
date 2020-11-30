@@ -1,6 +1,5 @@
 html {
     height: 100%;
-    font-family: 'Roboto', sans-serif;  
     background-color: #D2F6C5;
 }
 
@@ -29,8 +28,13 @@ header {
 
 }
 
+p {
+    font-family: 'Merriweather', serif;
+}
+
 h1 {
     margin-right: 1rem;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 main {
@@ -50,11 +54,13 @@ h2 {
     font-size: 1.25rem;
     margin: 1rem 0rem;
     font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 h3 {
     font-size: 1.1rem;
     margin: 1rem 0rem;
     font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
