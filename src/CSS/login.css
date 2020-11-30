@@ -47,6 +47,19 @@ input[type=text]:focus {
     background-color: #E4F9DC;
   }
 
+input[type=password] {
+    width: 100%;
+    padding: 1.15rem 1.15rem;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    border: 0.02rem solid #158E60;
+    align-items: center;
+  }
+  
+input[type=password]:focus {
+    background-color: #E4F9DC;
+  }
+
 div{
     display: flex;
     flex-direction: column;

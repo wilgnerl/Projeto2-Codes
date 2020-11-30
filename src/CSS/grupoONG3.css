@@ -38,8 +38,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
-    margin: 1rem 1rem;
+    margin: 0rem 1rem;
 }
 .title {
     font-size: 1.45rem;
