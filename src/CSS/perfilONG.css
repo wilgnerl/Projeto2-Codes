@@ -33,6 +33,13 @@ h1 {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+a {
+    margin-right: 1rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+}
+
 main{
     flex-grow: 1; 
     display: flex;
